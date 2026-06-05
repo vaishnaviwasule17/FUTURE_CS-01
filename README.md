@@ -1,7 +1,4 @@
 # FUTURE_CS-01
-DVWA (Damn Vulnerable Web Application) – README
-Website Tested
-
 DVWA (Damn Vulnerable Web Application)
 
 DVWA is a deliberately insecure PHP/MySQL web application designed for learning web application security, ethical hacking, and penetration testing techniques in a safe environment.
