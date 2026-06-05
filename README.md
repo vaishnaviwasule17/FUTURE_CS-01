@@ -86,6 +86,68 @@ Session Management Analysis
 Vulnerability Exploitation
 Verification and Documentation
 
+##Vulnerability report
+[View Vulnerability report]
+()
+
+
+Findings
+1. Suspicious Sender Address
+
+The sender domain:
+
+security-alert@account-verification-support.com
+
+appears generic and does not identify any legitimate company, bank, or service provider. Legitimate organizations typically send account-related notifications from their official corporate domains.
+
+Indicator: Suspicious Domain
+
+2. Use of Urgency and Fear
+
+The email contains phrases such as:
+
+"Your account has been temporarily locked."
+"Verify your identity immediately."
+"Failure to verify within 24 hours may result in permanent suspension."
+
+These statements are designed to create panic and pressure the recipient into acting without verification.
+
+Indicator: Social Engineering
+
+3. Generic Greeting
+
+The message begins with:
+
+Dear Customer
+
+Legitimate organizations generally address customers by name or account identifier.
+
+Indicator: Generic Salutation
+
+4. Verification Request
+
+The email asks the recipient to click a verification link to restore account access.
+
+Attackers commonly use such links to:
+
+Steal credentials
+Harvest personal information
+Deliver malware
+
+Indicator: Credential Harvesting Attempt
+
+5. Lack of Organization Identification
+
+The email never identifies:
+
+The company name
+The affected service
+The account involved
+
+This vagueness is common in mass phishing campaigns.
+
+Indicator: Lack of Legitimate Business Context
 ##Project Report
 [View Project Report]
 (https://github.com/vaishnaviwasule17/FUTURE_CS-01/blob/9d4cd89ed58f9e4fcf35a1d291f7676d85862d25/Project%20Report.pdf)
+
