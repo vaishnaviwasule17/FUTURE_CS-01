@@ -86,7 +86,7 @@ Session Management Analysis
 Vulnerability Exploitation
 Verification and Documentation
 
-##Vulnerability report
+Vulnerability report-
 (https://github.com/vaishnaviwasule17/FUTURE_CS-01/blob/9944bab1c43ff47eee4972490ed69302b0e66ba9/Vulnerability%20report.pdf)
 
 
@@ -146,5 +146,6 @@ The account involved
 This vagueness is common in mass phishing campaigns.
 
 Indicator: Lack of Legitimate Business Context
+Email phishing analysis report-
 (https://github.com/vaishnaviwasule17/FUTURE_CS-01/blob/9d4cd89ed58f9e4fcf35a1d291f7676d85862d25/Project%20Report.pdf)
 
