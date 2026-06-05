@@ -1,1 +1,67 @@
 Email-Module/README.md
+Email phishing Analysis
+for example emails like-
+Subject: Your Account Has Been Locked From: security alert@account-verification-support.com 
+Message: Dear Customer, We detected unusual login activity on your account. For your security, your account has been temporarily locked.
+To restore access, please verify your identity immediately.
+Verify Your Account Now Failure to verify your account within 24 hours may result in permanent suspension. 
+Thank you, 
+Security Team
+
+
+Findings
+1. Suspicious Sender Address
+
+The sender domain:
+
+security-alert@account-verification-support.com
+
+appears generic and does not identify any legitimate company, bank, or service provider. Legitimate organizations typically send account-related notifications from their official corporate domains.
+
+Indicator: Suspicious Domain
+
+2. Use of Urgency and Fear
+
+The email contains phrases such as:
+
+"Your account has been temporarily locked."
+"Verify your identity immediately."
+"Failure to verify within 24 hours may result in permanent suspension."
+
+These statements are designed to create panic and pressure the recipient into acting without verification.
+
+Indicator: Social Engineering
+
+3. Generic Greeting
+
+The message begins with:
+
+Dear Customer
+
+Legitimate organizations generally address customers by name or account identifier.
+
+Indicator: Generic Salutation
+
+4. Verification Request
+
+The email asks the recipient to click a verification link to restore account access.
+
+Attackers commonly use such links to:
+
+Steal credentials
+Harvest personal information
+Deliver malware
+
+Indicator: Credential Harvesting Attempt
+
+5. Lack of Organization Identification
+
+The email never identifies:
+
+The company name
+The affected service
+The account involved
+
+This vagueness is common in mass phishing campaigns.
+
+Indicator: Lack of Legitimate Business Context
