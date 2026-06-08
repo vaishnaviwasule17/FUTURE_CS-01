@@ -1,4 +1,4 @@
-#DVWA (Damn Vulnerable Web Application)
+# DVWA (Damn Vulnerable Web Application)
 
 DVWA is a deliberately insecure PHP/MySQL web application designed for learning web application security, ethical hacking, and penetration testing techniques in a safe environment.
 
@@ -85,8 +85,8 @@ Verification and Documentation
 Vulnerability report-
 (https://github.com/vaishnaviwasule17/FUTURE_CS-01/blob/9944bab1c43ff47eee4972490ed69302b0e66ba9/Vulnerability%20report.pdf)
 
-#Email phishing analysis
-##Findings
+# Email phishing analysis
+## Findings
 1. Suspicious Sender Address
 
 The sender domain:
