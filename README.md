@@ -6,7 +6,7 @@ Application: Damn Vulnerable Web Application (DVWA)
 Purpose: Security training and vulnerability assessment practice
 Environment: Localhost/Lab setup only
 Scope
-In-Scope Areas
+### In-Scope Areas
 
 The assessment focused on identifying and demonstrating common web application vulnerabilities available within DVWA, including:
 
@@ -24,7 +24,7 @@ Brute Force Authentication
 Weak Session Management
 Insecure CAPTCHA Implementation
 
-Out-of-Scope Areas-
+### Out-of-Scope Areas-
 
 Denial-of-Service (DoS) attacks
 Attacks against external systems
@@ -32,7 +32,7 @@ Network infrastructure testing
 Third-party services
 Production environments
 
-Tools Used-
+### Tools Used-
 
 Web Application Testing-
 
@@ -41,19 +41,19 @@ Intercepting requests
 Modifying parameters
 Replaying HTTP requests
 
-Vulnerability Analysis-
+### Vulnerability Analysis-
 
 OWASP ZAP
 Spidering
 Passive scanning
 Security assessment
 
-Browser Developer Tools-
+### Browser Developer Tools-
 
 Inspecting HTML, JavaScript, and network traffic
 Analyzing cookies and session tokens
 
-Database Testing-
+### Database Testing-
 
 SQLMap (for SQL Injection verification)
 
@@ -72,7 +72,7 @@ XAMPP / WAMP / LAMP Stack
 MySQL Database
 PHP Runtime
 
-Testing Methodology-
+### Testing Methodology-
 
 Information Gathering
 Application Mapping
